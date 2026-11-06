@@ -1,0 +1,46 @@
+{
+  "feature_names": [
+    "radius_mean",
+    "texture_mean",
+    "perimeter_mean",
+    "area_mean",
+    "smoothness_mean",
+    "compactness_mean",
+    "concavity_mean",
+    "concave_points_mean",
+    "symmetry_mean",
+    "fractal_dimension_mean",
+    "radius_se",
+    "texture_se",
+    "perimeter_se",
+    "area_se",
+    "smoothness_se",
+    "compactness_se",
+    "concavity_se",
+    "concave_points_se",
+    "symmetry_se",
+    "fractal_dimension_se",
+    "radius_worst",
+    "texture_worst",
+    "perimeter_worst",
+    "area_worst",
+    "smoothness_worst",
+    "compactness_worst",
+    "concavity_worst",
+    "concave_points_worst",
+    "symmetry_worst",
+    "fractal_dimension_worst"
+  ],
+  "target_column": "target",
+  "target_mapping": {
+    "0": "Benign",
+    "1": "Malignant"
+  },
+  "model_files": {
+    "Logistic Regression": "logistic_regression.joblib",
+    "Decision Tree": "decision_tree.joblib",
+    "KNN": "knn.joblib",
+    "Naive Bayes": "naive_bayes.joblib",
+    "Support Vector Machine": "svm.joblib"
+  }
+}
